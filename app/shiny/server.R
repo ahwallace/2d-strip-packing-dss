@@ -154,16 +154,7 @@ function(input, output, session){
       
       show_modal_spinner(text = "Saving...")
       
-      # Check to see if strip width a number
-      if(!is.numeric(upload[1, 1])){
-        remove_modal_spinner()
-        shinyalert(
-          title = "Error",
-          text = "Strip width is not a numeric value",
-          closeOnClickOutside = TRUE, 
-          type = "error"
-        )
-      } else if(ncol(upload) != 3){
+      if(ncol(upload) != 3){
         remove_modal_spinner()
         # Check for number of columns
         shinyalert(
