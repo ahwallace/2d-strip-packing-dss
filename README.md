@@ -50,6 +50,7 @@ The DSS, *packR*, is based on the above algorithmic impementation of the routine
 cd /path/to/deployment/staging
 git clone https://github.com/ahwallace/2d-strip-packing-dss.git packR
 ```
+
 The `git clone` command above will clone the framework into a folder named `packR`.
 
 ### Clone this repository
