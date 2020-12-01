@@ -106,8 +106,14 @@ function(input, output, session){
   
   # Get name for outputs
   pretty_name <- reactive({
-    if(!identical(instance_choices(), character(0))){ 
-      instance_names[[which(papers == input$author)]][which(instance_choices() == input$instance)]
+    if(!identical(instance_choices(), character(0))){
+      if(input$author == "Personal"){
+        names <- list.files(paste(instances_path, input$author, sep = "/"), pattern = ".csv")
+        names_clean <- unlist(lapply(strsplit(names, split = "\\."), function(x){x[1]}))
+        names_clean[which(names == input$instance)]
+      } else {
+        instance_names[[which(papers == input$author)]][which(instance_choices() == input$instance)]
+      }
     }
   })
   
