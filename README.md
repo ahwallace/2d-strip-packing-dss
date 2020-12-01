@@ -42,8 +42,19 @@ Is based on the physical process of annealing. In broad terms, the simulated ann
 ## packR
 The DSS, *packR*, is based on the above algorithmic impementation of the routines above. The back-end was developed in R and the interface Shiny. Thereafter, the *DesktopDeployR* framework of W. Lee Pang allowed for the application to be distributed as a standalone desktop application devoid of any dependencies.
 
-##
-*packR* is available to be cloned and downloaded. The software can be run by executing the "RUN_APP.bat" file in the main directory.
+## Usage
+*packR* is available to be cloned and can be downloaded as a .zip file through Github. The software can be run by executing the "RUN_APP.bat" file in the main directory.
+
+*packR* can be cloned via the following `git clone` command
+```bash
+cd /path/to/deployment/staging
+git clone https://github.com/ahwallace/2d-strip-packing-dss.git packR
+```
+The `git clone` command above will clone the framework into a folder named `packR`.
+
+### Clone this repository
+cd /path/to/deployment/staging
+git clone https://github.com/wleepang/DesktopDeployR.git MyApplication
 
 ## References
 
