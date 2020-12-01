@@ -33,26 +33,6 @@ names(personal) <- "Personal"
 papers <- papers[-length(papers)]
 names(papers) <- authors
 
-# Names of instances to display
-instance_names <- list(Beng = paste("Bengtsson", 1:10, "(1982)"),
-                       jakobs = c("Jakobs 1 (1996)", "Jakobs 2 (1996)"),
-                       Dagli = c("Dagli 1 (1997)"),
-                       Ratanapan = c("Ratapanan & Dagli 1 (1997)", "Ratapanan & Dagli 2 (1997)"),
-                       Ratanapan2 = c("Ratanapan & Dagli 1 (1998)"),
-                       Babu = c("Babu 1 (1999)"),
-                       Burke = c("Burke & Kendall 1 (1999)"),
-                       Hifi2 = paste("Hifi", 1:9, "(1999)"),
-                       HopperC = paste(rep(paste("Hopper C", 1:7), each = 3), "-", rep(1:3, 7), " (2000)", sep = ""),
-                       HopperTN = c(paste("Hopper N ", rep(1:7, each = 5), "-", rep(c("a", "b", "c", "d", "e"), 7), " (2000)", sep = ""),
-                                    paste("Hopper T ", rep(1:7, each = 5), "-", rep(c("a", "b", "c", "d", "e"), 7), " (2000)", sep = "")),
-                       Wang = paste("Wang & Valenzuela", 1:479, "(2001)"),
-                       Burke2 = paste("Burke, Kendall & Whitwell", 1:12, "(2004)"),
-                       Pinto = c("CX 50 (2005)", "CX 100 (2005)", "CX 500 (2005)", "CX 1000 (2005)", "CX 5000 (2005)",
-                                 "CX 10000 (2005)", "CX 15000 (2005)"),
-                       Bortfelt = paste("Bortfeldt & Gehring", 1:360, "(2006)"),
-                       Imahori = paste("Imahori & Yagiura ", rep(4:19, each = 10), "-", rep(1:10, 15), " (2010)", sep = "")[-160],
-                       Lueng = paste("Leung & Zhang", 1:16, "(2011)"))
-
 visualise_instance <- function(data, file){
   lay <- data.frame(bl.x = 0, bl.y = 0, tr.x = data[1, "width"], tr.y = data[1, "height"], item.id = data[1, "id"])
   

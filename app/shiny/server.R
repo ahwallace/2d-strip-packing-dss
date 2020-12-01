@@ -88,15 +88,10 @@ function(input, output, session){
     # Convert vector to list
     show <- lapply(instance_choices(), function(x){x})
     
-    # Get names for Personal file
-    if(input$author == "Personal"){
-      if(!identical(instance_choices(), character(0))){
-        names(show) <- unlist(lapply(strsplit(instance_choices(), split = "\\."), function(x){x[1]}))
-      }
-    } else {
-      names(show) <- instance_names[[which(papers == input$author)]]
+    # Get names for files
+    if(!identical(instance_choices(), character(0))){
+      names(show) <- unlist(lapply(strsplit(instance_choices(), split = "\\."), function(x){x[1]}))
     }
-    
     updateSelectInput(
       session,
       inputId = "instance",
@@ -107,13 +102,9 @@ function(input, output, session){
   # Get name for outputs
   pretty_name <- reactive({
     if(!identical(instance_choices(), character(0))){
-      if(input$author == "Personal"){
-        names <- list.files(paste(instances_path, input$author, sep = "/"), pattern = ".csv")
-        names_clean <- unlist(lapply(strsplit(names, split = "\\."), function(x){x[1]}))
-        names_clean[which(names == input$instance)]
-      } else {
-        instance_names[[which(papers == input$author)]][which(instance_choices() == input$instance)]
-      }
+      names <- list.files(paste(instances_path, input$author, sep = "/"), pattern = ".csv")
+      names_clean <- unlist(lapply(strsplit(names, split = "\\."), function(x){x[1]}))
+      names_clean[which(names == input$instance)]
     }
   })
   
