@@ -21,10 +21,10 @@ Heuristic algorithms are simple rule-based packing algorithms that allow users t
 Both the improved best-fit and constructive heuristics rely on a two-stage packing procedure whereby a suitable space is found and thereafter an item to fit into the space is chosen basd on the above mentioned scoring rules. The item with with the highest score for the chosen space will be placed. Both methods rely on the bottom-left criteria where an item will be placed in the lowest, leftmost available space. If no item can fit into the bottom-left space, the next lowest, left-most space is evauted until all items are packed. The selection of the rectangles are based on simple scoring rules in which rectangles fitting into the space are scored and the item with the largest score is selected - ties are resolved by the initial packing order of the list of rectangles.
 
 An example scoring rule of the constructive heuristic:
-![An example scoring rule of the constructive heuristic](images/ch_scoring.PNG?raw=true "Title")
+![An example scoring rule of the constructive heuristic](images/ch_scoring.png?raw=true "Title")
 
 An example scoring rule of the improved best-fit heuristic:
-![An example scoring rule of the improved best-fit heuristic](images/ibf_scoring.PNG?raw=true "Title")
+![An example scoring rule of the improved best-fit heuristic](images/ibf_scoring.png?raw=true "Title")
 
 Items in the the Constructive and Improved Best-Fit heuristics are placed next to the tallest neighbour. That is, the item is placed on the side of the space with the largest height.
 
