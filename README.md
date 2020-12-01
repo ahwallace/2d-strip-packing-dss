@@ -53,10 +53,6 @@ git clone https://github.com/ahwallace/2d-strip-packing-dss.git packR
 
 The `git clone` command above will clone the framework into a folder named `packR`.
 
-### Clone this repository
-cd /path/to/deployment/staging
-git clone https://github.com/wleepang/DesktopDeployR.git MyApplication
-
 ## References
 
 Burke, E. K., Kendall, G., & Whitwell, G. (2004). A new placement heuristic for the orthogonal stock-cutting problem. Operations Research, 52(4), 655-671.
