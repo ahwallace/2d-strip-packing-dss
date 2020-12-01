@@ -475,7 +475,10 @@ navbarPage(
                 ),
                 hr(),
                 fluidRow(
-                  plotlyOutput("run_plot")
+                  shinycssloaders::withSpinner(
+                    plotlyOutput("run_plot"),
+                    hide.ui = FALSE
+                  )
                 )
               )
             ),
