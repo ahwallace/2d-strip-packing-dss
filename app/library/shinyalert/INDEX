@@ -1,0 +1,4 @@
+closeAlert              Close a shinyalert popup message
+runExample              Run shinyalert example
+shinyalert              Display a popup message (modal) in Shiny
+useShinyalert           Set up a Shiny app to use shinyalert

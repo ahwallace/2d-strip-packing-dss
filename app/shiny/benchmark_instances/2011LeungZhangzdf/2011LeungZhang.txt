@@ -1,0 +1,9 @@
+Leung SC & Zhang D, 2011, "A fast layer-based heuristic for non-guillotine strip packing", Expert Systems with Applications, 38(10), pp. 13032-13042.
+
+Often called zdf
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimals: 5 optimal solutions known

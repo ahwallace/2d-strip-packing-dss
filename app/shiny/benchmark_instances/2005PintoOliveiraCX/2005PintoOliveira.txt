@@ -1,0 +1,9 @@
+Pinto E & Oliveira JF, 2005, "Algorithm based on graphs for the non-guillotinable two-dimensional packing problem", Proceedings of the 2nd EURO Special Interest Group on Cutting and Packing (ESICUP) Meeting, Southampton, no page numbers.
+
+Often called CX
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimals: 600 for all 7 instances

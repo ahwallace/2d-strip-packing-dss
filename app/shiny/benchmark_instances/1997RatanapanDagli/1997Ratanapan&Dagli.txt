@@ -1,0 +1,9 @@
+Ratanapan K & Dagli CH, 1997, "An object-based evolutionary algorithm for solving rectangular piece nesting problems", Proceedings of the IEEE International Conference on Systems, Man, and Cybernetics, Orlando (FL), pp. 989-994.
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimals:
+Not know for both
+

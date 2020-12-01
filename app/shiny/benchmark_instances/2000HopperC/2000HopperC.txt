@@ -1,0 +1,16 @@
+Hopper E & Turton BCH, 2001, "A review of the application of meta-heuristic algorithms to 2D strip packing problems", Artificial Intelligence Review, 16(4), pp. 257--300.
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimals:
+C1: 20
+C2: 15
+C3: 30
+C4: 60
+C5: 90
+C6: 120
+C7: 240
+
+Also in: Hopper E, 2000, "Two-dimensional packing utilising evolutionary algorithms and other meta-heuristic methods", PhD Dissertation, University of Wales, Cardiff.

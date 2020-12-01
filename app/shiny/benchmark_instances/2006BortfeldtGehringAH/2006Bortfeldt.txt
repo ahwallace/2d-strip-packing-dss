@@ -1,0 +1,10 @@
+Bortfeldt A & Gehring H, 2006, "New large benchmark instances for the two-dimensional strip packing with rectangular pieces", Proceedings of the 39th Annual Hawaii International Conference on System Sciences, Kauai (HI), p. 30.
+
+Often called AH
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimals: 
+Not known for all 360 instances

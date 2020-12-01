@@ -1,0 +1,21 @@
+Version 0.3.3
+==============
+* Fixed issues with mismatched palette names
+* Added new palettes (IsleofDogs1 and IsleofDogs2)
+* Minor cleanup
+
+Version 0.3.3
+==============
+* Minor fixes to documentation
+* Fixed malformed description
+
+Version 0.3.2
+==============
+* Changed the way arugments are ordered
+* Can we get somebody over here to kill these mice for us? (Fixed plotting bug)
+* You might be on “B” Squad, But you’re the “B” Squad leader. (Improved palette printing)
+
+
+Version 0.3
+=============
+* What kind of bird are you? One that's being released to CRAN for the first time.

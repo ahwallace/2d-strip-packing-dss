@@ -1,0 +1,9 @@
+Imahori S & Yagiura M, 2010, "The best-fit heuristic for the rectangular strip packing problem: An efficient implementation and the worst-case approximation ratio", computers and Operations Research, 37(2), pp. 325-333.
+
+Often called IY
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimals: All known for all 170 instances

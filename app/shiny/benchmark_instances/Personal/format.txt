@@ -1,0 +1,5 @@
+Type: Must be in CSV format
+
+Format: 
+First line : width of initial strip, optimal height (-999 if unknown),
+Other lines: Reference, Height, Width

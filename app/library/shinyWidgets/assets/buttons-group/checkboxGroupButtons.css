@@ -1,0 +1,47 @@
+
+
+/* CSS checkbox buttons for icons */
+
+
+.btn.checkbtn:focus {
+  outline: none !important;
+}
+
+
+
+.btn.checkbtn .check-btn-icon-yes {
+	opacity: 0; display: none;
+}
+.btn.checkbtn.active .check-btn-icon-yes {
+	opacity: 1; display: inline-block;
+}
+
+.btn.checkbtn.active .check-btn-icon-no {
+	opacity: 0; display: none;
+}
+.btn.checkbtn .check-btn-icon-no {
+	opacity: 1; display: inline-block;
+}
+
+
+.btn.checkbtn.disabled > .check-btn-icon-yes {
+	pointer-events: none;
+}
+.btn.checkbtn.disabled > .check-btn-icon-no {
+	pointer-events: none;
+}
+
+
+
+
+
+/*
+.btn.checkbtn span.glyphicon {
+	opacity: 0; display: none;
+}
+.btn.checkbtn.active span.glyphicon {
+	opacity: 1; display: inline-block;
+}
+*/
+
+

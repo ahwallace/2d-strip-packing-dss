@@ -1,0 +1,7 @@
+Jakobs S, 1996, "On genetic algorithms for the packing of polygons", European Journal of Operational Research, 88(1), pp. 165-181.
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimal: 15 for both

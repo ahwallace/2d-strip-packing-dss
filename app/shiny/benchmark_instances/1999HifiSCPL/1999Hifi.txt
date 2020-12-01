@@ -1,0 +1,10 @@
+Hifi M, 1999, "The strip cutting and packing problem: Incremental substrip algorithms-based heuristics", Pesquisa Operacional, 19(2), pp. 169-188.
+
+Often called SCPL
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimals: 
+Not known for all 9 instances

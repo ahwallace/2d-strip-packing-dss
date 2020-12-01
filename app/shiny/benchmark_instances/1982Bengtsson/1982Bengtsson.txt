@@ -1,0 +1,24 @@
+Bengtsson BE, 1982, "Packing rectangular pieces — A heuristic approach", The Computer Journal, 25(3), pp. 353–357.
+
+Often called Beng
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimals:
+1: 30
+2: Not known (58)
+3: Not known (85)
+4: Not known (108)
+5: 134
+6: Not known (37)
+7: 67
+8: 101
+9: 126
+10: 156
+
+Values in brackets indicate best solution found by Martello et al. within 3600 seconds.
+
+Some optimal solutions found in:
+Martello S, Monaci M & Vigo D, 2003, "An Exact Approach to the Strip-Packing Problem", INFORMS Journal on Computing 15(3), pp. 310-319.

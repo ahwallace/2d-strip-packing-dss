@@ -1,0 +1,30 @@
+Package: wesanderson
+Title: A Wes Anderson Palette Generator
+Description: Palettes generated mostly from 'Wes Anderson' movies.
+Date: 2018-03-29
+Version: 0.3.6
+Authors@R: c(person("Karthik", "Ram", role = c("aut", "cre"),
+    email = "karthik.ram@gmail.com", comment = c(ORCID = "0000-0002-0233-1757")),
+    person("Hadley", "Wickham", role = "aut",
+    email = "h.wickham@gmail.com"),
+    person("Clark", "Richards", role = "ctb",
+    email = "crichards@whoi.edu"),
+    person("Aaron", "Baggett", role = "ctb",
+    email = "aaronbaggett@gmail.com"))
+Depends: R (>= 3.0)
+License: MIT + file LICENSE
+LazyData: true
+Suggests: ggplot2
+URL: https://github.com/karthik/wesanderson
+BugReports: https://github.com/karthik/wesanderson/issues
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2018-04-19 23:13:48 UTC; karthik
+Author: Karthik Ram [aut, cre] (<https://orcid.org/0000-0002-0233-1757>),
+  Hadley Wickham [aut],
+  Clark Richards [ctb],
+  Aaron Baggett [ctb]
+Maintainer: Karthik Ram <karthik.ram@gmail.com>
+Repository: CRAN
+Date/Publication: 2018-04-20 04:11:42 UTC
+Built: R 3.6.3; ; 2020-11-21 11:15:16 UTC; windows

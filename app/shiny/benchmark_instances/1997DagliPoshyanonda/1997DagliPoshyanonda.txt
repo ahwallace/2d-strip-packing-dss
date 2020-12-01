@@ -1,0 +1,7 @@
+Dagli CH & Poshyanonda P, 1997, "New approaches to nesting rectangular patterns", Journal of Intelligent Manufacturing, 8(3), pp. 224-227.
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimal: Not know

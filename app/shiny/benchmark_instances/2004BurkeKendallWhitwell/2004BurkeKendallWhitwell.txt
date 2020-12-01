@@ -1,0 +1,22 @@
+Burke EK, Kendall G & Whitwell G, 2004, "A new placement heuristic for the orthogonal stock-cutting problem", Operations Research, 52(4), pp. 655-671.
+
+Format:
+StripWidth
+Reference, Height, Width
+
+Optimals:
+1)  40
+2)  50
+3)  50
+4)  80
+5)  100
+6)  100
+7)  100
+8)  80
+9)  150
+10) 150
+11) 150
+12) 300
+13) 960*
+
+*Item sizes for 13 are not listed.

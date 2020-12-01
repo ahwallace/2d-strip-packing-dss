@@ -1,0 +1,7 @@
+Burke EK & Kendall G, 1999, "Applying simulated annealing and the no fit polygon to the nesting problem", Proceedings of the World Manufacturing Congress, Durham, pp. 27-30.
+
+Format: 
+First line : width of initial strip
+Other lines: Reference, Height, Width
+
+Optimal: Not known
