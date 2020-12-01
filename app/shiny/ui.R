@@ -661,7 +661,7 @@ navbarPage(
       hr(),
       h4("Heuristic Algorithms"),
       br(),
-      p("Heuristic algorithms are simple rules based packing algorithms that allow users to 
+      p("Heuristic algorithms are simple rule-based packing algorithms that allow users to 
             quickly obtain good quality (although not necessarily optimal) solutions to packing problems."),
       p("Constructive heuristic scoring rule for the case when h₁ ≥ h₂:"),
       img(src='ch.png', height="100%", width="100%", align = "center"),
@@ -669,7 +669,7 @@ navbarPage(
       p("Improved Best-Fit heuristic scoring rule:"),
       img(src='bf.png', height="100%", width="100%", align = "center"),
       br(),
-      p("Both the Constructive and Improved Best-Fit heuistics rely on a two-stage packing 
+      p("Both the Constructive and Improved Best-Fit heuristics rely on a two-stage packing 
             procedure whereby a suitable space is found and thereafter an item to fit into the
             space is chosen basd on the above mentioned scoring rules. The item with with the highest 
             score for the chosen space will be placed."),
