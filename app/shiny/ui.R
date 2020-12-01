@@ -1,7 +1,7 @@
 
 navbarPage(
-  title = "2D Strip Packing DSS",
-  id = "packR",
+  title = "packR",
+  id = "main",
   selected = "Instances",
   theme = shinytheme("yeti"),
   collapsible = TRUE,
