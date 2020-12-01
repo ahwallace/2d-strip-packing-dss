@@ -1676,9 +1676,9 @@ function(input, output, session){
   }
   
   # Make sure app closes properly
-  # session$onSessionEnded(function(){
-  #   stopApp()
-  #   q("no")
-  # })
+  session$onSessionEnded(function(){
+    stopApp()
+    q("no")
+  })
   
 }
